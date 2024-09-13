@@ -1,0 +1,52 @@
+.game_page{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+.play{
+    width:80%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+   
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoreboard{
+    width : 100%;
+    height:10%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score{
+    width:max-content;
+    gap:20px;
+    display: flex;
+}
+.settings{
+    width:max-content;
+    gap:30px;
+    display: flex;
+}
+
+.card_grid {
+    width: 100%;
+    height: 85%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 4 equal columns */
+    grid-template-rows: repeat(4, 1fr); /* 4 equal rows */
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+
+
+
